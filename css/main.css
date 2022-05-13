@@ -511,7 +511,7 @@ img {
 
 .site-hero {
   background-color: #014e56;
-  background-image: url("../../images/bg-img-1.png"), url("../../images/bg-img-2.png");
+  background-image: url("../images/bg-img-1.png"), url("../images/bg-img-2.png");
   background-repeat: no-repeat;
   background-size: 200px, 290px;
   background-position: calc(50% - 770px) calc(50% - 75px), calc(50% + 400px) calc(100%);
@@ -590,7 +590,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .site-hero {
-    background-image: url("../../images/bg-img-2.png");
+    background-image: url("../images/bg-img-2.png");
     background-position: calc(50%) calc(100%);
     background-size: 358px, 200px;
   }
@@ -657,7 +657,7 @@ img {
 
 .site-build {
   background-color: #012F34;
-  background-image: url(../../images/buid-bgi.png);
+  background-image: url(../images/buid-bgi.png);
   background-repeat: no-repeat;
   background-size: 200px 244px;
   background-position: calc(50% + 760px) calc(100%);
@@ -724,7 +724,7 @@ img {
   left: -95px;
   width: 72px;
   height: 72px;
-  background-image: url("../../images/buid1.svg");
+  background-image: url("../images/buid1.svg");
   background-size: 72px 72px;
   background-repeat: no-repeat;
   content: "";
@@ -736,7 +736,7 @@ img {
   left: -95px;
   width: 72px;
   height: 72px;
-  background-image: url("../../images/buid2.svg");
+  background-image: url("../images/buid2.svg");
   background-size: 72px 72px;
   background-repeat: no-repeat;
   content: "";
@@ -748,7 +748,7 @@ img {
   left: -95px;
   width: 72px;
   height: 72px;
-  background-image: url("../../images/buid3.svg");
+  background-image: url("../images/buid3.svg");
   background-size: 72px 72px;
   background-repeat: no-repeat;
   content: "";
@@ -869,7 +869,7 @@ img {
 .success-stories {
   position: relative;
   background-color: #004047;
-  background-image: url("../../images/result-top-bgi.png"), url("../../images/success-bgi-3.png");
+  background-image: url("../images/result-top-bgi.png"), url("../images/success-bgi-3.png");
   background-position: calc(50% - 690px) top, calc(50% + 660px) calc(50% + 324px);
   background-size: 147px 100px, 200px 100px;
   background-repeat: no-repeat;
@@ -920,7 +920,7 @@ img {
   text-align: center;
   margin: 0;
   padding-top: 40px;
-  background-image: url("../../images/success-bgi-2.svg");
+  background-image: url("../images/success-bgi-2.svg");
   background-size: 67px 56px;
   background-repeat: no-repeat;
   background-position: center 5px;
