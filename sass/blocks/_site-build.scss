@@ -1,0 +1,112 @@
+.site-build {
+  padding-top: 198px;
+  padding-bottom: 140px;
+  background-color: #012F34;
+  background-image: url(../../images/buid-bgi.png);
+  background-repeat: no-repeat;
+  background-size: 200px 244px;
+  background-position: calc(50% + 760px) calc(100%);
+}
+
+.site-build__inner {
+  @include flex-starter;
+  align-items: flex-start;
+}
+
+.site-build__left-box {
+  width: 100%;
+  max-width: 445px;
+}
+.site-build__heading {
+  width: 100%;
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+
+  &::before {
+    display: block;
+    position: relative;
+    bottom: 54px;
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    content: "";
+  }
+}
+
+.right-box__list {
+  @include list-global;
+  margin-left: 220px;
+}
+
+.right-box__item {
+  position: relative;
+  width: 100%;
+  max-width: 445px;
+}
+.right-box__item  + .right-box__item {
+  margin-top: 32px;
+}
+.right-box__item:nth-child(1){
+  &::before{
+    position: absolute;
+    top: 0;
+    left: -95px;
+    width: 72px;
+    height: 72px;
+    background-image: url("../../images/buid1.svg");
+    background-size: 72px 72px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+}
+.right-box__item:nth-child(2){
+  &::before{
+    position: absolute;
+    top: 0;
+    left: -95px;
+    width: 72px;
+    height: 72px;
+    background-image: url("../../images/buid2.svg");
+    background-size: 72px 72px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+}
+.right-box__item:nth-child(3){
+  &::before{
+    position: absolute;
+    top: 0;
+    left: -95px;
+    width: 72px;
+    height: 72px;
+    background-image: url("../../images/buid3.svg");
+    background-size: 72px 72px;
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+}
+
+.right-box__header {
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+}
+.right-box__text {
+  width: 100%;
+  margin: 0;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
