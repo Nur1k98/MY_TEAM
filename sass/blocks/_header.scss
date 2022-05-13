@@ -63,7 +63,42 @@
     border: 2px solid #014E56;
   }
 
+  .btn-burger {
+    display: none;
+    width: 100%;
+    max-width: 20px;
+    max-height: 17px;
+    border: none;
+    background: transparent;
+  }
+  
+
 
   //----------------- RESPONSIVE-----------------\\
+
   
-// @include max-width
+  
+@include max-width(768px){
+  .site-header {
+    padding: 64px 0;
+  }
+
+  .site-header__logo {
+    max-width: 128px;
+    max-height: 32px;
+  }
+  .nav {
+    margin-left: 48px;
+
+  }
+  
+}
+
+@include max-width(576px) {
+  .nav__list {
+    display: none;
+  }
+  .btn-burger {
+    display: block;
+  }
+}
