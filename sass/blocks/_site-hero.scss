@@ -97,7 +97,9 @@
   .site-hero__title {
     width: 100%;
     max-width: 683px;
+    margin-right: auto;
     margin-bottom: 24px;
+    margin-left: auto;
     text-align: center;
     font-size: 64px;
     line-height: 56px;
@@ -130,8 +132,7 @@
 
 }
 
-
-@include max-width(375px) {
+@include max-width(576px) {
  
   .site-hero__inner {
     padding-top: 32px;
@@ -142,6 +143,8 @@
     width: 100%;
     max-width: 327px;
     margin-bottom: 18px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 40px;
     line-height: 40px;
   }
@@ -156,6 +159,8 @@
 
     }
   }
+
+
 
  
 

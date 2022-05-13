@@ -155,7 +155,7 @@
     
 }
 
-@include max-width(375px) {
+@include max-width(575px) {
    .site-build {
       background-position: right calc(-60%) top;
     }
@@ -186,9 +186,15 @@
         bottom: 32px;
       }
     }
+
+    .right-box {
+      margin-left: auto;
+      margin-right: auto;
+    }
     .right-box__list {
       text-align: center;
-      margin-left: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
     .right-box__item:nth-child(1){
       &::before{
